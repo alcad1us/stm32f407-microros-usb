@@ -27,6 +27,10 @@ ros2 run micro_ros_agent micro_ros_agent serial --dev /dev/ttyACM0 -b 115200
 3. Reset the board — after that the agent should pick it up
 4. Check with `ros2 topic echo /stm32_topic`
 
+## Data
+
+![data](data.png)
+
 ## Notes to myself
 
 - The board has to be reset **after** the agent is already running, otherwise it won't connect
